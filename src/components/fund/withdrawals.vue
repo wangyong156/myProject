@@ -1,0 +1,98 @@
+<template>
+	<div class="all">
+		<div class="" v-for="(i,index) in lists">
+			<v-FundArrowList :item=i></v-FundArrowList>
+		</div>
+	</div>
+</template>
+
+<script>
+	import FundArrowList from '@/components/FundArrowList'
+	import my from '@/api/home/index'
+  import ContentHead from '@/components/ContentHead'
+	export default{
+		data(){
+			return{
+				lists:[
+					{
+						name:"提现",
+						time:"2016-12-03 13:20:04",
+						money:"-10.00",
+						balance:"3000.00"
+					},
+					{
+						name:"提现",
+						time:"2017-12-03 11:20:04",
+						money:"-40.00",
+						balance:"780.00"
+					},
+					{
+						name:"提现",
+						time:"2017-12-03 15:20:04",
+						money:"-560.00",
+						balance:"860.00"
+					},
+					{
+						name:"提现",
+						time:"2016-12-03 13:20:04",
+						money:"-30.00",
+						balance:"450.00"
+					},
+					{
+						name:"提现",
+						time:"2016-12-03 14:27:04",
+						money:"-530.00",
+						balance:"452.00"
+					},
+
+					{
+						name:"提现",
+						time:"2017-12-03 15:20:04",
+						money:"-560.00",
+						balance:"860.00"
+					},
+					{
+						name:"提现",
+						time:"2016-12-03 13:20:04",
+						money:"-30.00",
+						balance:"450.00"
+					},
+					{
+						name:"提现",
+						time:"2016-12-03 14:27:04",
+						money:"-530.00",
+						balance:"452.00"
+					},
+					{
+						name:"充值",
+						time:"2017-12-03 09:20:34",
+						money:"+103.00",
+						balance:"76.00"
+					},
+				]
+			}
+		},
+		components: {
+	        'v-FundArrowList': FundArrowList
+    	},
+    	mounted(){
+	  		let senddata = {
+				page:1,
+				type:4,
+				userId:window.localStorage.getItem("token")
+			}
+			my.accountLogJson(senddata).then(res=>{
+	            if(res.data.code==200){
+
+	            } else if(res.data.code==222){
+	                this.$router.push({path:'/'})
+	            }else{
+	            	 console.log(res);
+	            }
+	      	})
+		}
+	}
+</script>
+
+<style>
+</style>

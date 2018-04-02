@@ -1,0 +1,385 @@
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.router-link-active {
+    color: #fffc24;
+
+}
+i{
+  font-style:normal;
+}
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tr {
+  text-align: right;
+}
+.tl {
+  text-align: left;
+}
+.h100 {
+  height: 100%;
+}
+.w100 {
+  width: 100%;
+}
+.w90 {
+  width: 90%;
+}
+.w85 {
+  width: 85%;
+}
+.w80 {
+  width: 80%;
+}
+.w75 {
+  width: 75%;
+}
+.w70 {
+  width: 70%;
+}
+.w60 {
+  width: 60%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w49 {
+  width: 49%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w34 {
+  width: 34%;
+}
+
+.w33 {
+  width: 33%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w20 {
+  width: 20%;
+}
+.w15 {
+  width: 15%;
+}
+.w10 {
+  width: 10%;
+}
+.mt0{
+  margin-top:0;
+}
+.mb0{
+  margin-bottom:0;
+}
+.mr0{
+  margin-right:0;
+}
+.ml0{
+  margin-left:0;
+}
+.mt10{
+  margin-top:0.1333rem;
+}
+.mb10{
+  margin-bottom:0.1333rem;
+}
+.mr10{
+  margin-right:0.1333rem;
+}
+.ml10{
+  margin-left:0.1333rem;
+}
+.mt15{
+  margin-top:0.2rem;
+}
+.mb15{
+  margin-bottom:0.2rem;
+}
+.mr15{
+  margin-right:0.2rem;
+}
+.ml15{
+  margin-left:0.2rem;
+}
+.mt20{
+  margin-top:0.2667rem;
+}
+.mb20{
+  margin-bottom:0.2667rem;
+}
+.mr20{
+  margin-right:0.2667rem;
+}
+.ml20{
+  margin-left:0.2667rem;
+}
+.mt24{
+  margin-top:0.32rem;
+}
+.mb24{
+  margin-bottom:0.32rem;
+}
+.mr24{
+  margin-right:0.32rem;
+}
+.ml24{
+  margin-left:0.32rem;
+}
+.mt30{
+  margin-top:0.4rem;
+}
+.mb30{
+  margin-bottom:0.4rem;
+}
+.mr30{
+  margin-right:0.4rem;
+}
+.ml30{
+  margin-left:0.4rem;
+}
+.mt40{
+  margin-top:0.5333rem;
+}
+.mb40{
+  margin-bottom:0.5333rem;
+}
+.mr40{
+  margin-right:0.5333rem;
+}
+.ml40{
+  margin-left:0.5333rem;
+}
+.mt50{
+  margin-top:0.6667rem;
+}
+.mb50{
+  margin-bottom:0.6667rem;
+}
+.mr50{
+  margin-right:0.6667rem;
+}
+.ml50{
+  margin-left:0.6667rem;
+}
+.mt60{
+  margin-top:0.8rem;
+}
+.mb60{
+  margin-bottom:0.8rem;
+}
+.mr60{
+  margin-right:0.8rem;
+}
+.ml60{
+  margin-left:0.8rem;
+}
+.mt75{
+  margin-top:1rem;
+}
+.mb75{
+  margin-bottom:1rem;
+}
+.mr75{
+  margin-right:1rem;
+}
+.ml75{
+  margin-left:1rem;
+}
+.padding{
+  padding:0 0.4rem;
+}
+.base{
+  color:#f8cc00;
+}
+.white {
+  color: #ffffff;
+}
+.black0 {
+  color: #000;
+}
+.black3 {
+  color: #333;
+}
+.black6 {
+  color: #666666;
+}
+.black9 {
+  color: #999;
+}
+.blackC {
+  color: #ccc;
+}
+.red{
+  color:#e34c4d;
+}
+.green{
+  color:#01b28e;
+}
+.blue{
+  color:#2080C0;
+}
+.baseback{
+  background-color:#f8cc00;
+}
+.whiteback {
+  background-color: #ffffff;
+}
+.pageback{
+  background-color: #ddd;
+}
+.mainback{
+  background-color: #fff;
+}
+.fcfbef{
+  background-color: #fcfbef;
+}
+.bold{
+  font-weight: bold;
+}
+.f10{
+  font-size:0.1333rem;
+}
+.f12{
+  font-size:0.16rem;
+}
+.f14{
+  font-size:0.1867rem;
+}
+.f16{
+  font-size:0.2133rem;
+}
+.f18{
+  font-size:0.24rem;
+}
+.f20{
+  font-size:0.2667rem;
+}
+.f22{
+  font-size:0.2933rem;
+}
+.f24{
+  font-size:0.32rem;
+}
+.f26{
+  font-size:0.3467rem;
+}
+.f28{
+  font-size:0.3733rem;
+}
+.f30{
+  font-size:0.4rem;
+}
+.f32{
+  font-size:0.4267rem;
+}
+.f34{
+  font-size:0.4533rem;
+}
+.f36{
+  font-size:0.48rem;
+}
+.f38{
+  font-size:0.5067rem;
+}
+.f40{
+  font-size:0.5333rem;
+}
+.f42{
+  font-size:0.56rem;
+}
+.f44{
+  font-size:0.5867rem;
+}
+.positionR{
+  position:relative;
+}
+.fd-clear{
+  clear:both;
+}
+.clear:after{
+  content:"";
+  clear:both;
+  display: block;
+}
+.border-box{
+  box-sizing: border-box;
+}
+.borderT{
+  border-top:1px solid #ddd;
+}
+.borderB{
+  border-bottom:1px solid #ddd;
+}
+.borderL{
+  border-left:1px solid #ddd;
+}
+
+/*超出一行省略号显示*/
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+/*首行缩进*/
+.textIndent{
+  text-indent:2em;
+}
+.hide{
+  display: none;
+}
+.header{
+  background-color: #fff;
+  padding: 0 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.30667rem;
+  color: #333;
+  font-size: .48rem;
+  border-bottom:1px solid #ddd;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 333;
+}
+.header img, .header .img {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.contentWrap{
+  padding-top:1.30667rem;
+}
+.bottonWrap{
+  padding:0.2rem 0.4rem;
+}
+input{
+  overflow: hidden;
+}
+.redtest{
+  color: red !important;
+}
